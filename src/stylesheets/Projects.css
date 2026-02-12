@@ -1,0 +1,31 @@
+.mygrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px;
+  gap: 20px;
+}
+
+.shadyborder {
+  border: 1px solid rgb(180, 179, 179);
+  border-radius: 20px;
+  width: max-content;
+}
+
+#Projects {
+  width: min(1000px, 92%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 800px) {
+  .mygrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Individual Project */
+
+.project {
+  padding: 30px;
+  width: 100%;
+}

@@ -1,0 +1,52 @@
+#Contactme {
+  width: min(1000px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  align-items: start;
+  padding-top: 40px;
+  border-radius: 2px;
+  gap: 100px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactme {
+  display: grid;
+  padding: 0.5rem;
+  gap: 0.8rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contactme input,
+textarea {
+  padding: 10px;
+  border: 2px solid rgb(54, 51, 51);
+  border-radius: 10px;
+}
+
+.contactme textarea {
+  resize: none;
+}
+
+.contactme textarea::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

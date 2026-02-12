@@ -1,0 +1,81 @@
+.mynavbar {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e8e8ea;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav2 a img {
+  height: 1.6rem;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 250px;
+  height: 100vh;
+  background-color: rgb(203, 202, 202);
+  z-index: 100;
+  transition: right 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 30px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+@media (max-width: 1000px) {
+  .nav2 {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    display: none;
+    width: 200px;
+    padding: 1rem;
+    font-size: medium;
+    flex-direction: column;
+  }
+
+  .navbar-brand {
+    font-size: small;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}

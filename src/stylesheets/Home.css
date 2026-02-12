@@ -1,0 +1,37 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: min(1000px, 92%);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center;
+  text-align: center;
+}
+
+.santhosh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  border-radius: 8rem;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  width: 100%;
+  font-size: xx-large;
+}
+
+@media (max-width: 900px) {
+  .intro {
+    font-size: x-large;
+  }
+  .home {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .santhosh {
+    height: 15rem;
+  }
+}

@@ -1,0 +1,25 @@
+.resume {
+  border: none;
+  background-color: rgb(103, 103, 103);
+  width: 180px;
+  height: 40px;
+  align-self: center;
+  margin-top: 2rem;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.resume:hover {
+  background-color: #4a4949;
+}
+
+.about {
+  width: min(1000px, 92%);
+  padding: 20px;
+  margin: 0 auto 0;
+  display: flex;
+  font-size: medium;
+  flex-direction: column;
+  text-align: center;
+}

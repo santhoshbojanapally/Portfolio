@@ -1,0 +1,23 @@
+.heading {
+  font-weight: 800;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.skillsTray {
+  display: grid;
+  width: min(1000px, 92%);
+  place-items: center;
+  margin: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#Skills {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .skillsTray {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
