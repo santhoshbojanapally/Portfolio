@@ -1,4 +1,4 @@
-import Leetcode from "../assets/LeetCode.png";
+import Leetcode from "../assets/Leetcode.png";
 import github from "../assets/github.png";
 import Codingprofile from "./Codingprofile";
 const Profiles = [
