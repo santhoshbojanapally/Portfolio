@@ -1,4 +1,4 @@
-import "../stylesheets/Skillslist.css";
+import "../stylesheets/skillslist.css";
 
 const Skillslist = ({ List }) => {
   return (

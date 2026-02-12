@@ -1,5 +1,4 @@
 import "../stylesheets/About.css";
-import Button from "./Button";
 
 function About() {
   return (

@@ -1,6 +1,5 @@
 import Leetcode from "../assets/Leetcode.png";
-import github from "../assets/github.png";
-import Codingprofile from "./Codingprofile";
+import Codingprofile from "./Codingprofile.jsx";
 const Profiles = [
   {
     name: "Leetcode",

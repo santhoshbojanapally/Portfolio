@@ -1,5 +1,4 @@
 import photo from "../assets/Photo.png";
-import fork from "../assets/ASU_Sun_Devil_Athletics_SparkyPitchfork_1_MaroonGold_RGB_ForDigital.png";
 import "../stylesheets/Home.css";
 
 import Typewriter from "typewriter-effect";

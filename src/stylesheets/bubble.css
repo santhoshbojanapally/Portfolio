@@ -1,0 +1,46 @@
+.bubble {
+  animation: float 2s ease-in-out 0s infinite forwards;
+  border: 0.5px solid gray;
+  padding: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.bubble:hover {
+  rotate: 12deg;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  scale: 1.2;
+}
+
+.skillName {
+  opacity: 0;
+  animation: float 2s ease-in-out 0s infinite forwards;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(56, 189, 248, 0.65);
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 10rem;
+  background-color: rgb(108, 106, 106);
+  position: relative;
+  top: -120px;
+  color: white;
+}
+
+.bubble:hover + .skillName {
+  opacity: 1;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

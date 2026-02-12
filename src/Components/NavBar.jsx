@@ -1,5 +1,5 @@
 import "../stylesheets/navbar.css";
-import Button from "./Button";
+import Button from "./Button.jsx";
 import ButtonData from "../Data/ButtonData.js";
 import { useState } from "react";
 import { useEffect, useRef } from "react";
