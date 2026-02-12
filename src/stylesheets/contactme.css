@@ -14,6 +14,21 @@
   gap: 100px;
 }
 
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  align-items: center;
+  border: 2px solid rgb(147, 146, 146);
+  border-radius: 10px;
+}
+
+.box p {
+  text-align: center;
+  width: 100%;
+}
+
 .contact a {
   text-decoration: none;
   color: black;

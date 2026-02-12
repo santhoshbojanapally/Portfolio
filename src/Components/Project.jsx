@@ -9,9 +9,9 @@ const Project = ({ name, img, Tech_Stack, Link, description }) => {
       <br />
       <h2 style={{ fontWeight: 800, fontSize: "18px" }}>{name}</h2>
       Check it out here:{" "}
-      <i class="fa-solid fa-link">
-        <a href={Link}></a>
-      </i>
+      <a href={Link} style={{ textDecoration: "none", color: "black" }}>
+        <i class="fa-solid fa-link"></i>
+      </a>
       <br />
       <br />
       <h4>{description}</h4>

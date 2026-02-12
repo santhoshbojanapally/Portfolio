@@ -57,7 +57,7 @@ function Contactme() {
           <h3 className="section text-md font-semibold text-center ">
             Talk To Me
           </h3>
-          <div className="box shadyborder">
+          <div className="box">
             <i class="fa-solid fa-envelope"></i>
             <p>Email</p>
             <p>santhoshbojanapally@gmail.com</p>
@@ -67,7 +67,7 @@ function Contactme() {
               </a>
             </button>
           </div>
-          <div className="box shadyborder">
+          <div className="box ">
             <i class="fa-brands fa-linkedin"></i>
             <p>LinkedIn</p>
             <span style={{ textDecoration: "none", color: "black" }}>

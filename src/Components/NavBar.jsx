@@ -47,6 +47,10 @@ function NavBar() {
           }
         })}
       </ul>
+      {isOpen && (
+        <div className="backdrop" onClick={() => setIsOpen(false)}></div>
+      )}
+
       <aside ref={sidebarRef} className={`sidebar ${isOpen ? "open" : ""}`}>
         <ul>
           <li>
