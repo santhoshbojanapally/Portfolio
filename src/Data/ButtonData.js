@@ -4,6 +4,7 @@ const ButtonData = [
   { id: "3", type: "button", label: "Skills", link: "#Skills" },
   { id: "4", type: "button", label: "Education", link: "#Education" },
   { id: "5", type: "button", label: "Projects", link: "#Projects" },
+  { id: "6", type: "button", label: "Resume", link: "#Resume" },
   { id: "7", type: "button", label: "Contact me", link: "#Contactme" },
 ];
 

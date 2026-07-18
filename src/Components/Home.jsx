@@ -15,8 +15,8 @@ function Home() {
                 strings: [
                   "I'm Santhosh Kumar",
                   "I'm a Web-Developer",
-                  "I'm a Programmer",
-                  "I'm a Masters Student at ASU",
+                  "I'm a Masters Student at ASU(3.8/4.0)",
+                  "I'm looking for SDE Internships",
                   "I'm a Tech Enthusiast",
                 ],
                 autoStart: true,

@@ -30,21 +30,11 @@ function NavBar() {
       </a>
       <ul class="nav nav2 nav-pills">
         {ButtonData.map((element) => {
-          if (element.id === "6") {
-            return (
-              <li class="nav-item">
-                <a target="_blank" class="nav-link" href={element.link}>
-                  <img src={element.label.src} alt={element.label.alt} />
-                </a>
-              </li>
-            );
-          } else {
-            return (
-              <li class="nav-item">
-                <Button label={element.label} link={element.link} />
-              </li>
-            );
-          }
+          return (
+            <li class="nav-item">
+              <Button label={element.label} link={element.link} />
+            </li>
+          );
         })}
       </ul>
       {isOpen && (
@@ -71,6 +61,11 @@ function NavBar() {
             </a>
           </li>
 
+          <li>
+            <a href="#Resume" onClick={() => setIsOpen(false)}>
+              Resume
+            </a>
+          </li>
           <li>
             <a href="#Contact" onClick={() => setIsOpen(false)}>
               Contact

@@ -9,9 +9,9 @@ import Education from "./Components/Education.jsx";
 import Projects from "./Components/Projects.jsx";
 import Handles from "./Components/Handles.jsx";
 import "./App.css";
+import Resume from "./Components/Resume.jsx";
 
 const App = () => {
-  console.log("APP is running");
   return (
     <div>
       <NavBar />
@@ -20,6 +20,7 @@ const App = () => {
       <Skills />
       <Education />
       <Projects />
+      <Resume />
       <Handles />
       <Contactme />
       <Footer />

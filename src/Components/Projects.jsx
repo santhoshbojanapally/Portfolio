@@ -28,7 +28,7 @@ const Projects = () => {
   return (
     <div id="Projects">
       <div className="flex flex-column items-center justify-center">
-        <h2 className="section text-4xl font-semibold  text-center mt-40">
+        <h2 className="section text-4xl font-semibold  text-center mt-20">
           My Projects
         </h2>
         <h1 style={{ fontSize: "1rem", opacity: 0.6 }}>past work</h1>

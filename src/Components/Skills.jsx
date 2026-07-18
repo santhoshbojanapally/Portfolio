@@ -4,21 +4,16 @@ import Skillslist from "./Skillslist.jsx";
 
 function Skills() {
   return (
-    <div id="Skills" className="section">
-      <div>
-        <h2 className="section text-4xl heading">Skills</h2>
-        <div
-          style={{ display: "flex", justifyContent: "center", width: "100%" }}
-        >
-          <div className="skillsTray">
-            <Skillslist List={obj.Languages} />
-            <Skillslist List={obj.Frameworks} />
-            <Skillslist List={obj.Databases} />
-            <Skillslist List={obj.Tools} />
-          </div>
-        </div>
+    <section id="Skills" className="section skills-section">
+      <h2 className="heading text-4xl">Technical Skills</h2>
+
+      <div className="skillsTray">
+        <Skillslist List={obj.Languages} />
+        <Skillslist List={obj.Frameworks} />
+        <Skillslist List={obj.Databases} />
+        <Skillslist List={obj.Tools} />
       </div>
-    </div>
+    </section>
   );
 }
 
