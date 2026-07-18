@@ -9,7 +9,7 @@ const projects = [
     img: Wanderlust,
     Tech_Stack:
       "Node.js, Express, MongoDB (Mongoose), and EJS that enables users to create, browse, and manage property listings with end-to-end CRUD functionality.",
-    Link: "https://wanderlust-ej9a.onrender.com",
+    Link: "https://wanderlust-git-main-santhoshbojanapallys-projects.vercel.app/listings",
     description:
       "Engineered a full-stack booking platform using the MVC Framework. Deployed using render. Implemented user authentication and session management using cookies and flash messages to enhance data security and UX consistency. Integrated JOI-based request schema validation and centralized error middleware, improving reliability and maintainability. Developed a dynamic templating system with EJS-Mate layouts, providing a responsive and clean UI similar to Airbnb’s property browsing experience. Applied Bootstrap styling and responsive design principles, achieving mobile-first compatibility across all devices",
   },

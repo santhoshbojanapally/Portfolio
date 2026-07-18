@@ -7,13 +7,6 @@ const Profiles = [
     img: Leetcode,
     Description: "LeetCode (Knight | 1100+ Problems Solved | Top 6% Globally).",
   },
-  //   {
-  //     name: "Github",
-  //     img: github,
-  //     Link: "https://github.com/santhoshbojanapally",
-  //     Description:
-  //       "MS CS @ ASU | Backend-focused engineer passionate about distributed systems, scalable APIs, and clean architecture.",
-  //   },
 ];
 
 const Handles = () => {

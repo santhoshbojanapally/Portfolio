@@ -8,7 +8,6 @@ import node from "../assets/Node.js.png";
 import docker from "../assets/Docker.png";
 import html from "../assets/HTML5.png";
 import css from "../assets/CSS3.png";
-import github from "../assets/github.png";
 import git from "../assets/git.png";
 import postman from "../assets/postman.png";
 
@@ -40,9 +39,8 @@ const Tools = {
   name: "Tools",
   skills: [
     { idx: 10, name: "docker", img: docker },
-    { idx: 11, name: "github", img: github },
-    { idx: 12, name: "git", img: git },
-    { idx: 13, name: "postman", img: postman },
+    { idx: 11, name: "git", img: git },
+    { idx: 12, name: "postman", img: postman },
   ],
 };
 

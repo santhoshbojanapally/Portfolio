@@ -11,6 +11,7 @@ import Handles from "./Components/Handles.jsx";
 import "./App.css";
 
 const App = () => {
+  console.log("APP is running");
   return (
     <div>
       <NavBar />
@@ -21,7 +22,6 @@ const App = () => {
       <Projects />
       <Handles />
       <Contactme />
-
       <Footer />
     </div>
   );
